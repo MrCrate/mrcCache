@@ -1,0 +1,9 @@
+name: mrcCache
+version: '${project.version}'
+main: org.mcr.MrcCache
+api-version: '1.16'
+author: MrCrate
+commands:
+  createcache:
+    description: Создает тайник.
+    usage: /createcache
